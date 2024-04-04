@@ -10,7 +10,7 @@ const PricingCards = ({ obj }) => {
           <div className = 'col-sm-12 col-md-6 col-lg-6 col-xl-4'>
             
           <div key={index} className='card m-5 rounded-2'>
-            <div className="card-header bg-primary rounded-top-5">
+            <div className="card-header bg-primary rounded-top-2">
                 <h5 className='text-center text-white'>{item.subscribe}</h5>
             <h2 className='text-center text-white'>{item.header}/Month</h2>
             </div>
